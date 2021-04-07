@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Image Manipulation </title>
+  <link type="text/css" href="styles.css" rel="stylesheet">
+</head>
+<body class="container">
+  
+  <h1> Image Manipulation </h1>
+  <h3> Apply a grayscale filter to your image! </h3>
+
+  <input type="file" accept="image/x" id="fileinput">
+  <button onclick="startProcessImage()"> Process image </button>
+
+  <span id="spinner"> You spin me round </span>
+  
+  <div>
+    <canvas id="canvas" width="0" height="0"></canvas>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
